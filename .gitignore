@@ -1,0 +1,21 @@
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Frontend
+src/frontend/node_modules/
+src/frontend/dist/
+src/frontend/.env
+
+# Backend (Java / Spring Boot)
+src/backend/target/
+src/backend/*.jar
+src/backend/application-secret.properties
+
+# ML Service (Python)
+src/ml-service/__pycache__/
+src/ml-service/venv/
+src/ml-service/.env
+*.pyc
